@@ -19,7 +19,7 @@ public class HomePage extends AbstractPageObject{
 
 	public HomePage(WebDriver driver) {
 		super(driver);
-		this.driver.get("http://localhost:9721/workshop");
+		this.driver.get("http://localhost:9721/workshop/#/main/welcome");
 	}
 	
 	public BookListPage clickBookList() {
